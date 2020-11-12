@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@drawable/home"
+    >
+
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/settings"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:background="@drawable/iconrec"
+        android:drawableRight="@drawable/search"
+        android:paddingRight="60dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/subtractionone"
+        android:drawableTop="@drawable/bulb"
+        android:paddingTop="20dp"
+        android:text="مقترحات أرائكم وأفكاركم تهمنا"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/subtractiontwo"
+        android:drawableTop="@drawable/iconvote"
+        android:paddingTop="20dp"
+        android:text="تصويت                                 وسيلتكم لأتخاذ القرار"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/subtractionfour"
+        android:drawableTop="@drawable/roomservice"
+        android:paddingTop="20dp"
+        android:text="خدمات المنافع العامه والخاصه"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/subtractionthree"
+        android:drawableTop="@drawable/newspaper"
+        android:paddingTop="20dp"
+        android:text="أخبار أحدث المنشورات والقررات"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:drawableRight="@drawable/iconqrcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="294dp"
+        android:background="@drawable/ellipse"
+        android:paddingRight="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/iconrec"
+        android:text="إرسال دعوه"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/iconrec"
+        android:text="حسابي"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>
